@@ -1,0 +1,43 @@
+body {
+    color: saddlebrown;
+    background: lightyellow;
+    margin: 0px;
+    font-family: "Bungee Tint", sans-serif;
+}
+
+header {
+    border-bottom: solid 2px rgb(228, 42, 98);
+    padding: 20px;
+    font-size: 32px;
+color: rgb(228, 42, 57);
+
+}
+section {
+    background: rgb(245, 250, 203);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+div {
+    margin-right: 20px;
+}
+
+
+.categoria-videos {
+    display: flex;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 150px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 2px solid green;
+}
+
+.categoria h2 {
+    color:hotpink;
+}
